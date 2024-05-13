@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.autosuggestField({
+    label: "API Key"|t('resend'),
+    instructions: "The Resend API key."|t('resend'),
+    id: 'apiKey',
+    name: 'apiKey',
+    value: adapter.apiKey,
+    suggestEnvVars: true,
+    errors: adapter.getErrors('apiKey')
+}) }}
