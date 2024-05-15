@@ -1,6 +1,6 @@
 # Resend
 
-This plugin provides a Resend integration for Craft CMS.
+The Resend plugin integrates [Resend](https://resend.com/home), the email service, with Craft CMS.
 
 ## Requirements
 
